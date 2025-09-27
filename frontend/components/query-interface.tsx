@@ -43,11 +43,11 @@ export function QueryInterface() {
           <Card className="gradient-border">
             <div className="gradient-border-content">
               <CardHeader>
-                <CardTitle className="flex items-center gap-2">
+                <CardTitle className="flex items-center gap-2 mt-4">
                   <Sparkles className="h-5 w-5 text-primary" />
                   Submit Your Query
                 </CardTitle>
-                <CardDescription>
+                <CardDescription className="mb-0.5">
                   Ask questions about compliance, upload property images, or submit documents for review.
                 </CardDescription>
               </CardHeader>
@@ -74,7 +74,7 @@ export function QueryInterface() {
 
                 <div className="pt-4 border-t border-border">
                   <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 mb-4">
                       <Badge variant="secondary" className="text-xs">
                         Auto-routing enabled
                       </Badge>
@@ -82,7 +82,7 @@ export function QueryInterface() {
                         Multimodal ready
                       </Badge>
                     </div>
-                    <Button>
+                    <Button className="mb-4">
                       <Send className="h-4 w-4 mr-2" />
                       Submit Query
                     </Button>

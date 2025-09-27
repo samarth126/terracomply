@@ -20,7 +20,7 @@ const complianceModels = [
     title: "Transaction Review",
     description: "Validate offer/contract packets for required addenda, contingencies, and mandatory disclosures.",
     icon: Building,
-    type: "Fine-tuned Model",
+    type: "RAG System",
     status: "Active",
     accuracy: "96.8%",
     features: ["Contract Validation", "Addenda Checks", "Lead Paint Disclosure", "Flood Zone Analysis"],
@@ -42,7 +42,7 @@ const complianceModels = [
     description:
       "State landlord-tenant statutes including notice periods, habitability standards, security deposits, and eviction timelines.",
     icon: Users,
-    type: "Fine-tuned Model",
+    type: "RAG System",
     status: "Training",
     accuracy: "89.3%",
     features: ["Notice Period Rules", "Habitability Standards", "Security Deposit Laws", "Eviction Procedures"],
@@ -53,7 +53,7 @@ const complianceModels = [
     description:
       "FinCEN Geographic Targeting Orders, beneficial ownership checks, and KYC/KYB workflows for luxury/foreign buyers.",
     icon: Shield,
-    type: "RAG System",
+    type: "Fine-tuned Model",
     status: "Development",
     accuracy: "97.1%",
     features: ["FinCEN GTO Compliance", "Beneficial Ownership", "KYC/KYB Workflows", "Risk Scoring"],

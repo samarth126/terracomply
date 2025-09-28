@@ -41,8 +41,7 @@ if __name__ == '__main__':
     base_model = "meta-llama/Llama-3.2-1B"
     tokenizer = AutoTokenizer.from_pretrained(
             base_model, 
-            trust_remote_code=True,
-            token="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",
+            trust_remote_code=True
     )
 
     # Single-threaded processing (avoids multiprocessing issues)
@@ -58,7 +57,6 @@ if __name__ == '__main__':
         base_model,
         device_map="auto",  # This will use CPU automatically
         torch_dtype=torch.float32,  # Use float32 for CPU
-        token="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",
         cache_dir="./workspace",
     )
 

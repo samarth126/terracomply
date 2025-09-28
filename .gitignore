@@ -1,2 +1,4 @@
 .venv
 .env
+# /lora_finetune_AML
+/meta-llama

@@ -1,0 +1,2 @@
+FROM llama3.2:1b
+ADAPTER  /Users/samarthbhole/Desktop/projects_2/lora_finetune/final_model_checkpoints

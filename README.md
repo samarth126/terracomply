@@ -45,11 +45,11 @@ frontend/
 1. **Install dependencies:**
    ```bash
    cd frontend
-   pnpm install
+   npm install
    ```
 2. **Run the development server:**
    ```bash
-   pnpm dev
+   npm dev
    ```
 
 ## API Endpoints

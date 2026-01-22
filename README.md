@@ -37,8 +37,7 @@ frontend/
    ```
 3. **Run the development server:**
    ```bash
-  uvicorn main2:app --reload --port 8000
-  
+   uvicorn crew_real_estate_router:app --reload --port 8000
    ```
 
 ### Frontend (Next.js)

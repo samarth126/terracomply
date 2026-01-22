@@ -28,16 +28,17 @@ frontend/
 
 1. **Install dependencies:**
    ```bash
-   cd backend
+   
    pip install -r requirements.txt
    ```
 2. **Apply migrations:**
    ```bash
-   python manage.py migrate
+   cd crewAI
    ```
 3. **Run the development server:**
    ```bash
-   python manage.py runserver
+  uvicorn main2:app --reload --port 8000
+  
    ```
 
 ### Frontend (Next.js)
